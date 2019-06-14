@@ -18,9 +18,9 @@ The numpad direction is required, if you want to input no direction, you must us
 
 Example: This will do a frame-perfect 623B, each input only lasting for one frame.  Separate lines are mandatory as shown below.
 
-`6,1
-2,1
-3B,1`
+6,1  
+2,1  
+3B,1  
 
 4: If you input everything correctly, you should see the "Overwrite Slot" button enabled.  Before that, check how long the inputs you put in are in frames.
 
