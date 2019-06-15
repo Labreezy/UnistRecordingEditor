@@ -51,8 +51,11 @@ namespace UnistRecordingEditor
                 var framect = 0;
                 foreach (var line in inputTextBox.Lines)
                 {
-                    var splitline = line.Split(',');
-                    framect += int.Parse(splitline[1]);
+                    if (line != "")
+                    {
+                        var splitline = line.Split(',');
+                        framect += int.Parse(splitline[1]);
+                    }
                 }
                 label1.Text = "Length in Frames: " + framect.ToString();
             }
