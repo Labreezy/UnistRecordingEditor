@@ -18,7 +18,7 @@ namespace UnistRecordingEditor
         private Dictionary<String, int> buttons = new Dictionary<string, int>() { { "A", 1 }, { "B", 2 }, { "C", 4 }, { "D", 8 } };
         private int dir_modifier = 0x100;
         private MemorySharp ms;
-        private int[] slotoffsets = { 0x7402FC, 0x740FC8, 0x741C94, 0x742960 , 0x74362C };
+        private int[] slotoffsets = { 0x8FF37C, 0x900048, 0x9019E0, 0x9026AC , 0x903378 };
         private IntPtr currentoffset = IntPtr.Zero;
         public mainForm()
         {
